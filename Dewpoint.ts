@@ -1,5 +1,6 @@
-namespace tdewpoint {
-    //% block = "dewpoint of temp = $temp humidity = $humidity"
+namespace Dewpoint {
+    //% block_ID = add_temp_humidity
+    //% block="dewpoint of Temp = $temp Humidity = $humidity"
     export function dewpoint(temp: number, humidity: number) {
         let a = 17.271;
         let b = 237.7;
